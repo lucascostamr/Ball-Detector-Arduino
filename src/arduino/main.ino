@@ -1,5 +1,5 @@
 const int motor1 = 5; //motor 1 speed - 0 - 255
-const int motor2 = 6; //motor 2 speed - de 0 - 255
+const int motor2 = 6; //motor 2 speed - 0 - 255
 const int dir1 = 7;   //motor 1 direction - HIGH or LOW
 const int dir2 = 8;   //motor 2 direction - HIGH or LOW
 
