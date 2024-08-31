@@ -3,6 +3,8 @@ services:
     build: .
     volumes:
       - .:/app
-      - /dev/ttyUSB0:/dev/ttyUSB0
-    tty: true
+      - ${SERIAL_DEVICE}:${SERIAL_DEVICE}
+    env_file:
+      - .env
     network_mode: host
+    tty: true
