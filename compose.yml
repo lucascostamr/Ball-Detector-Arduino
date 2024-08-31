@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    tty: true
+    network_mode: host
